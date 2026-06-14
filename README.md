@@ -24,3 +24,4 @@ I finished building the first Zumo robot kit on June 12th, 2026, the day after I
 | | |
 |-|-|
 | ![Robot Sumo Book Cover](images/20260609-RobotSumo_BookCover.png) | [Robot Sumo by Pete Miles](https://www.amazon.com/Robot-Sumo-Official-Pete-Miles/dp/007222617X) |
+| ![Sumo Bot Manual Cover](images/20260614-SumoBot_ManualCover.jpg) | [Parallax SumoBot - Mini-Sumo Robotics](https://www.parallax.com/package/sumobot-manual-downloads/) |
