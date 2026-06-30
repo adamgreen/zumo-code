@@ -18,7 +18,25 @@ I also ordered some additional motors with alternate gear ratios to experiment w
 ### Bot Build
 ![Just finished building first bot](images/20260612-ZumoBuild.jpg)
 
-I finished building the first Zumo robot kit on June 12th, 2026, the day after I received my order from Pololu.
+I finished building the first Zumo robot kit (shown above) on June 12th, 2026, the day after I received my order from Pololu.
+
+I later built the second Zumo robot kit (shown below) on June 26th, 2026. This robot was constructed without the blade attached to the front of the robot to allow the [Balancing Example](https://github.com/adamgreen/zumo-2040-arduino-library/blob/main/examples/Balancing/Balancing.ino) to perform its magic.
+
+![Second bot balancing on its nose](images/20260629-Balancing.jpg)
+
+## Zumo 2040 Arduino Library
+I ported my [3π+ 2040 Arduino Library](https://github.com/adamgreen/pololu-3pi-plus-2040-arduino-library) to the **Zumo 2040**. This required:
+* Removing support for the 3π+'s Bumper Sensors.
+* Adding support for the Zumo's Proximity Sensors.
+* Updating the various [examples](https://github.com/adamgreen/zumo-2040-arduino-library/tree/main/examples) to work on my Zumo 2040 bots.
+
+This port can be found here: [Zumo 2040 Arduino Library](https://github.com/adamgreen/zumo-2040-arduino-library)
+
+**Balancing.ino**<br>
+![Balancing](images/20260629-Balancing.gif)
+
+**SumoCollisionDetection.ino**<br>
+![Sumo Collision Detection](images/20260629-SumoCollisionDetection.gif)
 
 ## Reading List
 | | |
