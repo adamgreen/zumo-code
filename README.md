@@ -20,7 +20,7 @@ I also ordered some additional motors with alternate gear ratios to experiment w
 
 I finished building the first Zumo robot kit (shown above) on June 12th, 2026, the day after I received my order from Pololu.
 
-I later built the second Zumo robot kit (shown below) on June 26th, 2026. This robot was constructed without the blade attached to the front of the robot to allow the [Balancing Example](https://github.com/adamgreen/zumo-2040-arduino-library/blob/main/examples/Balancing/Balancing.ino) to perform its magic.
+I later built the second Zumo robot kit (shown below) on June 26th, 2026. This robot was initially constructed without the blade attached to the front of the robot to allow the [Balancing Example](https://github.com/adamgreen/zumo-2040-arduino-library/blob/main/examples/Balancing/Balancing.ino) to perform its magic. I later finished the build for this bot on July 5th and attached its front sensor array and blade as well. Now I can compete one bot against the other.
 
 ![Second bot balancing on its nose](images/20260629-Balancing.jpg)
 
