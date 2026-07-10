@@ -38,6 +38,40 @@ This port can be found here: [Zumo 2040 Arduino Library](https://github.com/adam
 **SumoCollisionDetection.ino**<br>
 ![Sumo Collision Detection](images/20260629-SumoCollisionDetection.gif)
 
+## Initial Bouts
+I used my recently released [Zumo 2040 Arduino Library](https://github.com/adamgreen/zumo-2040-arduino-library) to compile and build 3 initial Sumo firmware images:
+* [SumoCollisionDetect](https://github.com/adamgreen/zumo-2040-arduino-library/blob/main/examples/SumoCollisionDetect/SumoCollisionDetect.ino) - An example from the Pololu Zumo Arduino Library which uses the accelerometer to detect contact with the opponent.
+* [SumoProximitySensors](https://github.com/adamgreen/zumo-2040-arduino-library/blob/main/examples/SumoProximitySensors/SumoProximitySensors.ino) - An example from the Pololu Zumo Arduino Library which uses the IR proximity sensors to detect the opponent.
+* [alpha](https://github.com/adamgreen/zumo-code/blob/main/software/alpha/alpha.ino) - My Arduino port of Parallax's `SumoBot-5.1-Basic-Competition-Program` firmware which uses the IR proximity sensors to detect the opponent.
+
+I ran each of these 3 firmware images on each of my 2 Zumo robots to create a total of 6 contestants:
+* SumoCollisionDetect-A (**coll-a**)
+* SumoCollisionDetect-B (**coll-b**)
+* SumoProximitySensors-A (**prox-a**)
+* SumoProximitySensors-B (**prox-b**)
+* **alpha-a**
+* **alpha-b**
+
+Each of the resulting 9 matchups were conducted as the best of 3 matches. The scores for each matchup are recorded in the table below in **Row-Colum** format, indicating the number of matches won by the contestant named on the current row vs the number won by the contestant named on the current column:
+
+|         | coll-b | prox-b | alpha-b |
+|---------|--------|--------|---------|
+| coll-a  | 0-2    | 0-2    | 2-0     |
+| prox-a  | 1-2    | 2-0    | 2-0     |
+| alpha-a | 2-1    | 0-2    | 2-0     |
+
+### Results
+* **First Place**: **prox** - Won **4** out of its 6 matchups.
+* **Second Place**: **coll** - Won **3** out of its 6 matchups.
+* **Third Place**: **alpha** - Won **1** out of its 6 matchups.
+* **Robot A**: Won **5** matchups.
+* **Robot B**: Won **4** matchups.
+
+### Notes
+* The **alpha** firmware has an issue where it gets stuck with its back to the ring border.
+* The second match in the **prox-a** vs **coll-b** matchup was interesting. The winner, **prox-a**, contacted the loser, **coll-b**, on the back corner with its blade enabling it to get under the bot and lift it up on its side.<br>
+![prox-a versus coll-b](images/20260709-prox-a_vs_coll-b.gif)
+
 ## Reading List
 | | |
 |-|-|
